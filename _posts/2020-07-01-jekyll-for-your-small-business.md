@@ -3,7 +3,9 @@ title: "Jekyll the static site generator for your small business"
 sub_title: "The light weight developer friendly static site generator"
 categories:
   - Jekyll
+comments: true
 tags:
+  - Web Designer Calgary
   - Jekyll
   - Jamstack
   - Static Site Generators

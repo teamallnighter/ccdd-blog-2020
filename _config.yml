@@ -12,6 +12,8 @@ twitter_username: chrisconnellyd1
 github_username: teamallnighter
 logo: "/assets/images/logo.jpg"
 google_analytics: UA-168676797-6
+disqus:
+  shortname: teamallnighter
 search: true
 search_full_content: true
 search_provider: lunr
