@@ -81,6 +81,7 @@ PLATFORMS
 DEPENDENCIES
   bundler
   jekyll
+  jekyll-seo-tag
   jekyll-theme-basically-basic!
   rake (>= 12.3.3)
 

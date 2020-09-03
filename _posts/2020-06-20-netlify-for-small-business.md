@@ -1,5 +1,5 @@
 ---
-title: "How Netlify can help your business gros"
+title: "How Netlify can help your business grow"
 sub_title: "The new way to serve static sites"
 categories:
   - Netlify
@@ -7,6 +7,8 @@ tags:
   - Netlify
   - Jamstack
 last_modified_at: 2020-06-20T08:25:52-05:00
+description: "Netlify has free services to get your site started!"
+author: "Chris Connelly"
 excerpt: "Netlify has free services to get your site started!"
 image:
   path: /assets/images/netlify.jpg

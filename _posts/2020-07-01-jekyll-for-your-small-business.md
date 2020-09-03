@@ -10,6 +10,8 @@ tags:
   - Netlify
 last_modified_at: 2020-07-01T08:25:52-05:00
 excerpt: "Jekyll is lightweight easy to use and, developer friendly"
+author: "Chris Connelly"
+description: "Jekyll is lightweight easy to use and, developer friendly"
 image:
   path: /assets/images/jekyll.jpg
 ---
