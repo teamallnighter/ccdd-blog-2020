@@ -8,4 +8,9 @@ var store = [{
         "excerpt":"Jekyll is a static generator. It takes files created by your dev and renders them down into a static site. Meaning, the site stays the same whoever is on it. Most companies just need a static site. For example, Facebook IS NOT static. It is different for each person. Jekyll is one of the original static site generators and it is one of the most popular. With Jekyll your dev can easily add on an admin section for you to login and create content without any code. Jekyll sites can also be hosted for free on Github where your dev is probably hosting code already! With Netlify, we can still process forms and even have logins for free. Jekyll is for sure an awesome system for small and medium sized business’ ","categories": ["Jekyll"],
         "tags": ["Web Designer Calgary","Jekyll","Jamstack","Static Site Generators","Netlify"],
         "url": "http://localhost:4000/jekyll/2020/07/01/jekyll-for-your-small-business.html"
+      },{
+        "title": "Netlify, Airtable and React App",
+        "excerpt":"This app uses Air Table, Netlify and React to update data. Normally you would need a programming language to update your database on the back end. Once your app is set up you can have clients or staff Create Remove Update and Delete (CRUD) data on your database AND overwrite it on the back end. ","categories": ["airtable","netlify"],
+        "tags": ["Web Designer Calgary","Netlify Functions","Jamstack","Static Site Generators","Netlify","React","Air Table"],
+        "url": "http://localhost:4000/airtable/netlify/2020/09/03/netlify-airtable.html"
       }]
