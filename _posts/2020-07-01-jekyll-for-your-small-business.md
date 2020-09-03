@@ -10,6 +10,8 @@ tags:
   - Netlify
 last_modified_at: 2020-07-01T08:25:52-05:00
 excerpt: "Jekyll is lightweight easy to use and, developer friendly"
+image:
+  path: /assets/images/jekyll.jpg
 ---
 
 Jekyll is a static generator. It takes files created by your dev and renders them down into a static site. Meaning, the site stays the same whoever is on it. Most companies just need a static site. 

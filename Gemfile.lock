@@ -80,6 +80,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
+  jekyll
   jekyll-theme-basically-basic!
   rake (>= 12.3.3)
 
