@@ -2,8 +2,8 @@
 title: "Netlify, Airtable and React App"
 sub_title: "This app uses air table as a database"
 categories:
-  - airtable
-  - netlify
+  - Airtable
+  - Netlify
 comments: true
 tags:
   - Netlify Functions
