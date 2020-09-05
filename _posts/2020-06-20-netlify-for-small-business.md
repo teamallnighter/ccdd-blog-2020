@@ -5,7 +5,6 @@ comments: true
 categories:
   - Netlify
 tags:
-  - Web Designer Calgary
   - Netlify
   - Jamstack
 last_modified_at: 2020-06-20T08:25:52-05:00

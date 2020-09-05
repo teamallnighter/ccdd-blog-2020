@@ -6,13 +6,13 @@ categories:
   - netlify
 comments: true
 tags:
-  - Web Designer Calgary
   - Netlify Functions
   - Jamstack
   - Static Site Generators
   - Netlify
   - React
   - Air Table
+  
 last_modified_at: 2020-09-03T08:25:52-05:00
 excerpt: "This app doesnt require you to know a programming language to admin your database"
 author: "Chris Connelly"
