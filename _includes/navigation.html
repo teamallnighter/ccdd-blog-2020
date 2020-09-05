@@ -6,6 +6,12 @@
         <span itemprop="name">{{ site.data.theme.t.home | default: 'Home' }}</span>
       </a>
     </li>
+    <li class="menu-item">
+      <a href="https://blog.chrisconnelly.dev/categories">
+        <span itemprop="name">{{ site.data.theme.t.catergories| default: 'Categories' }}</span>
+      </a>
+    </li>
+
 
     <!-- site.pages links -->
     {% assign default_paths = site.pages | map: "path" %}
