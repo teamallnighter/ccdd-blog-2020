@@ -10,7 +10,7 @@ last_modified_at: 2020-09-03T08:25:52-05:00
 excerpt: "Basically, a static site is when the content doesn'y change based on the user..."
 author: "Chris Connelly"
 image:
-  path: /assets/images/cover-2.png
+  path: /assets/images/staticsites.png
 ---
 
 ## What is a static page
