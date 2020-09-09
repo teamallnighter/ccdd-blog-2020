@@ -33,7 +33,7 @@ into the form. A human can't see it and it's not required.
 
 However a bot WILL fill it in. Then we know it's spam. 
 
-![The honeypot form result](/assets/images/honeyportform.png)
+![The honeypot form result](/assets/images/honeypotform.png)
 
 It's a lot eaiser on the user than using a captcha. 
 
