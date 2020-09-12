@@ -32,7 +32,7 @@
 <meta property="og:url" content="http://localhost:4000/404.html" />
 <meta property="og:site_name" content="Chris Connelly’s Blog" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/404.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.jpg"},"name":"Chris Connelly"},"author":{"@type":"Person","name":"Chris Connelly"},"headline":"Page not found","@type":"WebPage","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Chris Connelly"},"url":"http://localhost:4000/404.html","headline":"Page not found","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.jpg"},"name":"Chris Connelly"},"@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -306,7 +306,32 @@
   </script>
 
 
-
+      <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v8.0'
+          });
+        };
+    
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+    
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="110850913902045"
+    theme_color="#ff5ca1"
+    logged_in_greeting="Hi! let me know if you have any questions"
+    logged_out_greeting="Hi! let me know if you have any questions">
+      </div>
   </body>
 
 </html>

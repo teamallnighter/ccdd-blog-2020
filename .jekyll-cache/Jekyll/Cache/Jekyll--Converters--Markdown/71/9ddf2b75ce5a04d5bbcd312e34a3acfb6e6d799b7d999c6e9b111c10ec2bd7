@@ -1,0 +1,22 @@
+I"�<p>This is a spam filtering technique where we put a hidden field 
+into the form. A human can’t see it and it’s not required.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!--We use the following to tell netlify what we are doing and what field is the honeypot--&gt;</span>
+     <span class="nt">&lt;form</span> <span class="na">class=</span><span class="s">"form-template-v3"</span> <span class="na">method=</span><span class="s">"POST"</span> <span class="na">netlify-honeypot=</span><span class="s">"bot-field"</span> <span class="na">data-netlify=</span><span class="s">"true"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!--This is the field. --&gt;</span>
+          <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"hidden"</span> <span class="na">style=</span><span class="s">"display:none"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;label&gt;</span>Don’t fill this out if you're human: <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"bot-field"</span> <span class="nt">/&gt;&lt;/label&gt;</span>
+          <span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<p><img src="/assets/images/carbon.png" alt="The honeypot form result" /></p>
+
+<p>However a bot WILL fill it in. Then we know it’s spam.</p>
+
+<p><img src="/assets/images/honeypotform.png" alt="The honeypot form result" /></p>
+
+<p>It’s a lot eaiser on the user than using a captcha.</p>
+
+:ET

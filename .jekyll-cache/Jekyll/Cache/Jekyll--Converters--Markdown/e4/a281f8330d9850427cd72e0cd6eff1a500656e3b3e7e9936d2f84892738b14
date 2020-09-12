@@ -1,0 +1,117 @@
+I"»5<h2 id="what-is-web-scraping">What is Web Scraping?</h2>
+
+<blockquote>
+  <p>Web scraping, web harvesting, or web data extraction is data scraping used for extracting data from websites. Web scraping software may access the World Wide Web directly using the Hypertext Transfer Protocol, or through a web browser</p>
+</blockquote>
+
+<h3 id="is-web-scraping-legal">Is Web Scraping Legal?</h3>
+
+<p>Starting with the biggest BS around web scraping. Is web scraping legal? Yes, unless you use it unethically. Web scraping is just like any tool in the world. You can use it for good stuff and you can use it for bad stuff. Web scraping itself is not illegal. As a matter of fact, web scraping â€“ or web crawling, were historically associated with well-known search engines like Google or Bing. These search engines crawl sites and index the web. Because these search engines built trust and brought back traffic and visibility to the sites they crawled, their bots created a favorable view towards web scraping. It is all about how you web scrape and what you do with the data you acquire.</p>
+
+<p>A great example when web scraping can be illegal is when you try to scrape nonpublic data. Nonpublic data can be something that is not reachable for everyone on the web. Maybe you have to login to see the data. In this case web scraping is probably unethical, depending on the context. Also it does matter how nice you are technically when scraping a website. To learn more, I urge you to check out the most frequent legal issues associated with web scraping!</p>
+
+<p>Check out <a href="https://digitalcommons.law.scu.edu/cgi/viewcontent.cgi?referer=https://benbernardblog.com/&amp;httpsredir=1&amp;article=2261&amp;context=historical">this case</a>where linked in took people who where scraping data from the site to court.</p>
+
+<h2 id="tools-for-web-scraping">Tools for Web Scraping</h2>
+
+<h3 id="nodejs"><a href="https://nodejs.org/en/">Node.JS</a></h3>
+
+<blockquote>
+  <p><a href="https://nodejs.org/en/">Node.js</a> is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside a web browser.</p>
+</blockquote>
+
+<h3 id="cheeriojs"><a href="https://github.com/cheeriojs/cheerio">Cheerio.js</a></h3>
+
+<blockquote>
+  <p>Fast, flexible &amp; lean implementation of core jQuery designed specifically for the server.</p>
+</blockquote>
+
+<h2 id="puppeteer"><a href="https://github.com/puppeteer/puppeteer">Puppeteer</a></h2>
+
+<blockquote>
+  <p>Puppeteer is a Node library which provides a high-level API to control Chrome or Chromium over the DevTools Protocol. Puppeteer runs headless by default, but can be configured to run full (non-headless) Chrome or Chromium.</p>
+</blockquote>
+
+<h2 id="nightmarejs"><a href="https://github.com/segmentio/nightmare">Nightmare.js</a></h2>
+
+<p><a href="https://github.com/segmentio/nightmare">Nightmare</a>is a high-level browser automation library from Segment.</p>
+
+<h2 id="imdb-scraper"><a href="https://portfolio.chrisconnelly.dev/imdb-scraper-2">IMDB Scraper</a></h2>
+
+<p>My IMDB scraper</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">request</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">request-promise</span><span class="dl">'</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">cheerio</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">cheerio</span><span class="dl">'</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">fs</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">fs</span><span class="dl">'</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">Json2csvParser</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">json2csv</span><span class="dl">'</span><span class="p">).</span><span class="nx">Parser</span><span class="p">;</span>
+
+<span class="kd">const</span> <span class="nx">URLS</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="dl">'</span><span class="s1">https://www.imdb.com/title/tt0102926/?ref_=nv_sr_1</span><span class="dl">'</span><span class="p">,</span> 
+    <span class="dl">'</span><span class="s1">https://www.imdb.com/title/tt2267998/?ref_=nv_sr_1</span><span class="dl">'</span>
+<span class="p">];</span>
+
+<span class="p">(</span><span class="k">async</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="kd">let</span> <span class="nx">moviesData</span> <span class="o">=</span> <span class="p">[];</span>
+
+    <span class="k">for</span><span class="p">(</span><span class="kd">let</span> <span class="nx">movie</span> <span class="k">of</span> <span class="nx">URLS</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kd">const</span> <span class="nx">response</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">request</span><span class="p">({</span>
+                <span class="na">uri</span><span class="p">:</span> <span class="nx">movie</span><span class="p">,</span>
+                <span class="na">headers</span><span class="p">:</span> <span class="p">{</span>
+                    <span class="dl">'</span><span class="s1">Accept</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8</span><span class="dl">'</span><span class="p">,</span>
+                    <span class="dl">'</span><span class="s1">Accept-Encoding</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">gzip, deflate, br</span><span class="dl">'</span><span class="p">,</span>
+                    <span class="dl">'</span><span class="s1">Accept-Language</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">en-US,en;q=0.9,fr;q=0.8,ro;q=0.7,ru;q=0.6,la;q=0.5,pt;q=0.4,de;q=0.3</span><span class="dl">'</span><span class="p">,</span>
+                    <span class="dl">'</span><span class="s1">Cache-Control</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">max-age=0</span><span class="dl">'</span><span class="p">,</span>
+                    <span class="dl">'</span><span class="s1">Connection</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">keep-alive</span><span class="dl">'</span><span class="p">,</span>
+                    <span class="dl">'</span><span class="s1">Host</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">www.imdb.com</span><span class="dl">'</span><span class="p">,</span>
+                    <span class="dl">'</span><span class="s1">Upgrade-Insecure-Requests</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">1</span><span class="dl">'</span><span class="p">,</span>
+                    <span class="dl">'</span><span class="s1">User-Agent</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36</span><span class="dl">'</span>
+                <span class="p">},</span>
+                <span class="na">gzip</span><span class="p">:</span> <span class="kc">true</span>
+            <span class="p">}</span>
+        <span class="p">);</span>
+
+        <span class="kd">let</span> <span class="nx">$</span> <span class="o">=</span> <span class="nx">cheerio</span><span class="p">.</span><span class="nx">load</span><span class="p">(</span><span class="nx">response</span><span class="p">);</span>
+           
+        <span class="kd">let</span> <span class="nx">title</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">div[class="title_wrapper"] &gt; h1</span><span class="dl">'</span><span class="p">).</span><span class="nx">text</span><span class="p">().</span><span class="nx">trim</span><span class="p">();</span>
+        <span class="kd">let</span> <span class="nx">rating</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">div[class="ratingValue"] &gt; strong &gt; span</span><span class="dl">'</span><span class="p">).</span><span class="nx">text</span><span class="p">();</span>
+        <span class="kd">let</span> <span class="nx">poster</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">div[class="poster"] &gt; a &gt; img</span><span class="dl">'</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="dl">'</span><span class="s1">src</span><span class="dl">'</span><span class="p">);</span>
+        <span class="kd">let</span> <span class="nx">totalRatings</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">div[class="imdbRating"] &gt; a</span><span class="dl">'</span><span class="p">).</span><span class="nx">text</span><span class="p">();</span>
+        <span class="kd">let</span> <span class="nx">releaseDate</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">a[title="See more release dates"]</span><span class="dl">'</span><span class="p">).</span><span class="nx">text</span><span class="p">().</span><span class="nx">trim</span><span class="p">();</span>
+        <span class="kd">let</span> <span class="nx">popularity</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">#title-overview-widget &gt; div.plot_summary_wrapper &gt; div.titleReviewBar &gt; div:nth-child(5) &gt; div.titleReviewBarSubItem &gt; div:nth-child(2) &gt; span</span><span class="dl">'</span><span class="p">).</span><span class="nx">text</span><span class="p">().</span><span class="nx">trim</span><span class="p">();</span>
+        <span class="kd">let</span> <span class="nx">genres</span> <span class="o">=</span> <span class="p">[];</span>
+
+        <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">div[class="title_wrapper"] a[href^="/genre/"]</span><span class="dl">'</span><span class="p">).</span><span class="nx">each</span><span class="p">((</span><span class="nx">i</span><span class="p">,</span> <span class="nx">elm</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+            <span class="kd">let</span> <span class="nx">genre</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="nx">elm</span><span class="p">).</span><span class="nx">text</span><span class="p">();</span>
+            
+            <span class="nx">genres</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">genre</span><span class="p">);</span>
+        <span class="p">});</span>
+        
+        <span class="nx">moviesData</span><span class="p">.</span><span class="nx">push</span><span class="p">({</span>
+            <span class="nx">title</span><span class="p">,</span>
+            <span class="nx">rating</span><span class="p">,</span>
+            <span class="nx">poster</span><span class="p">,</span>
+            <span class="nx">totalRatings</span><span class="p">,</span>
+            <span class="nx">releaseDate</span><span class="p">,</span>
+            <span class="nx">genres</span>
+        <span class="p">});</span>
+        
+    <span class="p">}</span>
+
+
+    <span class="kd">const</span> <span class="nx">json2csvParser</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Json2csvParser</span><span class="p">();</span>
+    <span class="kd">const</span> <span class="nx">csv</span> <span class="o">=</span> <span class="nx">json2csvParser</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="nx">moviesData</span><span class="p">);</span>
+
+    <span class="nx">fs</span><span class="p">.</span><span class="nx">writeFileSync</span><span class="p">(</span><span class="dl">'</span><span class="s1">./data.csv</span><span class="dl">'</span><span class="p">,</span> <span class="nx">csv</span><span class="p">,</span> <span class="dl">'</span><span class="s1">utf-8</span><span class="dl">'</span><span class="p">);</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">csv</span><span class="p">);</span>
+
+<span class="p">})()</span>
+</code></pre></div></div>
+
+<p>The outputis a .csv file</p>
+
+<pre><code class="language-csv">"title","rating","poster","totalRatings","releaseDate","genres"
+"The Silence of the Lambs (1991)","8.6","https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg","1,081,528","14 February 1991 (USA)","[]"
+"Gone Girl (2014)","8.1","https://m.media-amazon.com/images/M/MV5BYjgwY2E1N2QtNDJkMi00YzE4LThiYTItYWI5YmE4NWMzMGFhXkEyXkFqcGdeQXVyMjU3OTA4NzQ@._V1_UX182_CR0,0,182,268_AL_.jpg","727,309","3 October 2014 (USA)","[]"
+</code></pre>
+
+:ET
