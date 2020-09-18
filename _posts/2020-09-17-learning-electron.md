@@ -17,14 +17,14 @@ image:
 
 Electron is an open-source software framework developed and maintained by GitHub. It allows for the development of desktop GUI applications using web technologies: it combines the Chromium rendering engine and the Node.js runtime
 
-### Why use desktop apps over web apps:
+### Why use desktop apps over web apps
 
 - Secure data
 - Access native API's
 - Work with the machines hardware
 - No deployments
 
-### Why use electron over other languages:
+### Why use electron over other languages
 
 - Single codebase over all platforms
 - Cost effectiveness
