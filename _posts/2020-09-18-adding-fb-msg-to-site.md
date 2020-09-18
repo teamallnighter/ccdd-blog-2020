@@ -38,8 +38,6 @@ From there scroll to the "White List Domains" section
 
 ![Javascript developer Alberta](http://portal.chrisconnelly.ca/media/Screen%20Shot%202020-09-09%20at%2012.14.27%20AM.png)
 
-![Facebook Messanger Website](http://portal.chrisconnelly.ca/media/Screen%20Shot%202020-09-09%20at%2012.14.27%20AM.png)
-
 We need to have any domains and sub domains that might use the chat app listed here.
 example.com
 www.example.com
@@ -54,3 +52,11 @@ From there navigate to messaging
 Scroll down until you see "add messenger to your site" and click get started
 
 ![Chris Connelly](http://portal.chrisconnelly.ca/media/Screen%20Shot%202020-09-09%20at%2012.19.15%20AM.png)
+
+From here you will be able to add some customization to your app including customer flow and branding.
+
+![Calgary Web Design](http://portal.chrisconnelly.ca/media/Screen%20Shot%202020-09-09%20at%2012.20.52%20AM.png)
+
+![Edmonton Web Design](http://portal.chrisconnelly.ca/media/Screen%20Shot%202020-09-09%20at%2012.20.56%20AM.png)
+
+You will now get your custom code for the chat app. Drop this anywhere in your code and you're good to go!
