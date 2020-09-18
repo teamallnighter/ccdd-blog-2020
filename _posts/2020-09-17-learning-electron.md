@@ -44,6 +44,6 @@ This is the first app I have completed using Electron. It is an image shirnker. 
 
 [The Code](https://github.com/teamallnighter/chris-learns-electron/tree/main/image-shrink)
 
-[Download The App](https://chrisconnelly.dev/electron/image-shrink)
+[Download The App](https://downloads.chrisconnelly.dev/electron/image-shrink)
 
 ![JavaScript Developer Edmonton](/assets/images/chrisconnellydotdev-imageshrinker.png)
