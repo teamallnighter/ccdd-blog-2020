@@ -32,7 +32,7 @@ With most SMB's the number one thing in our lives is customer satisfaction. We c
 
 Being able to track the service with surverys and reporting is vital. Your CRM should offer insight on how long a ticket takes to close and send out surverys to your customners once they do.
 
-![Why you need a CRM](assets/images/web-design-edmonton.png)
+![Why you need a CRM](/assets/images/web-design-edmonton.png)
 
 ## Who Is A CRM For
 
@@ -62,6 +62,6 @@ What does the CRM offer besides lead capture and outreach? Consider looking for 
 
 ## Self Hosted VS. Cloud
 
-![Self hosted vs cloud](assets/images/web-design-red-deer.png)
+![Self hosted vs cloud](/assets/images/web-design-red-deer.png)
 
 When it comes to self hosted VS cloud There are many things that need to be considered. For me the main reason I went with self hosted was cost. I paid one price one time and I am good to go. Talk to your IT person to figure what the best option for you is. 
