@@ -27,3 +27,5 @@ A Dynamic page would be like facebook. This page, if you looked at it on the ser
 IMO, just about everyone should be using a static page unless you are building a web app. Most companies will only require a static page. If your page needs to tell people who you are and provide contact information a static page will do. 
 
 A static page no longer requires the large ecosystem that webpages required or that dynamic pages require now. A static page can be hosted through Github and Netlify saving your comapny a lot of money and your dev a lot of head ache. 
+
+[Contact Me](https://chrisconnelly.dev) for more information on how a statis site can help your business
