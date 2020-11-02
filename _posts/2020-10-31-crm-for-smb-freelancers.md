@@ -62,6 +62,6 @@ What does the CRM offer besides lead capture and outreach? Consider looking for 
 
 ## Self Hosted VS. Cloud
 
-![Self hosted vs cloud](/assets/images/web-design-red-deer.png)
+![Self hosted vs cloud](/assets/images/webdesign-reddeer.png)
 
 When it comes to self hosted VS cloud There are many things that need to be considered. For me the main reason I went with self hosted was cost. I paid one price one time and I am good to go. Talk to your IT person to figure what the best option for you is. 
