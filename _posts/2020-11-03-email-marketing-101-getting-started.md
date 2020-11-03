@@ -12,10 +12,10 @@ last_modified_at: 2020-10-31T08:25:52-05:00
 excerpt: Web Design Calgary - For an SMB, freelancer or, consultant marketing can be out of reach. However, there are ways to reach a massive market...
 author: Chris Connelly
 image:
-  path: /assets/images/branding-calgary.png
+  path: /assets/images/email-marketing/web-design-lethbridge@2x.png
 ---
 
-## Email Campaigns: Still Worth It
+## Email Marketing 101: Getting Started
 
 ### The Facts
 
