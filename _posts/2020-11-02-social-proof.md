@@ -12,7 +12,7 @@ tags:
   - Facebook Reviews
   - Instagram
   - Youtube
-last_modified_at: 2020-10-31T08:25:52-05:00
+last_modified_at: 2020-11-01T08:25:52-05:00
 excerpt: Web Design Calgary - Social proof is considered prominent in ambiguous social situations where people are unable to determine the appropriate mode of behavior...
 author: Chris Connelly
 image:

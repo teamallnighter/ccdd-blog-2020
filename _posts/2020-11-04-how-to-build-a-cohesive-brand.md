@@ -1,14 +1,11 @@
 ---
 title: "Email Marketing 101: Getting Started"
 categories:
-  - Email Marketing
+  - Branding
 comments: true
 tags:
-  - Email Marketing 
-  - Mail Chimp
-  - Marketing
-  - Sendy
-last_modified_at: 2020-11-02T08:25:52-05:00
+
+last_modified_at: 2020-11-03T08:25:52-05:00
 excerpt: Web Design Calgary - For an SMB, freelancer or, consultant marketing can be out of reach. However, there are ways to reach a massive market...
 author: Chris Connelly
 image:
