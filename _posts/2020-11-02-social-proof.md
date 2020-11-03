@@ -2,6 +2,7 @@
 title: "What is Social Proof and Why You Should Be Using It"
 categories:
   - social proof
+  - Small Business Tips
 comments: true
 tags:
   - Social Proof
@@ -12,7 +13,7 @@ tags:
   - Instagram
   - Youtube
 last_modified_at: 2020-10-31T08:25:52-05:00
-excerpt: Social proof is considered prominent in ambiguous social situations where people are unable to determine the appropriate mode of behavior, and is driven by the assumption that the surrounding people possess more knowledge about the current situation
+excerpt: Web Design Calgary - Social proof is considered prominent in ambiguous social situations where people are unable to determine the appropriate mode of behavior...
 author: Chris Connelly
 image:
   path: /assets/images/branding-calgary.png

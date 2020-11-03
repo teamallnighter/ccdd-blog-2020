@@ -8,7 +8,7 @@ tags:
   - Customer Relationship Management
   - Open Source Software
 last_modified_at: 2020-10-31T08:25:52-05:00
-excerpt: is one of many different approaches that allow a company to manage and analyse its own interactions with its past...
+excerpt: Web Design Calgary - is one of many different approaches that allow a company to manage and analyse its own interactions with its past...
 author: Chris Connelly
 image:
   path: /assets/images/web-design-calgary.jpg

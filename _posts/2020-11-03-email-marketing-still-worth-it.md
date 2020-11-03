@@ -1,5 +1,5 @@
 ---
-title: "Email Campaigns: Still Worth It? and tips on getting started"
+title: "Email Marketing 101: Getting Started"
 categories:
   - Email Marketing
 comments: true
@@ -9,7 +9,7 @@ tags:
   - Marketing
   - Sendy
 last_modified_at: 2020-10-31T08:25:52-05:00
-excerpt: 
+excerpt: Web Design Calgary - For an SMB, freelancer or, consultant marketing can be out of reach. However, there are ways to reach a massive market...
 author: Chris Connelly
 image:
   path: /assets/images/branding-calgary.png
@@ -27,7 +27,7 @@ thats why building a succesful email marketing campaign can be crucial for any b
 
 #### How do I get an email list
 
-The first thing to remember is that, in Canada there are laws that state how an email list can be acquired before it is claimed as spam or even illegal. Here are some tips from [mailchimp]() on building an email list:
+The first thing to remember is that, in Canada there are laws that state how an email list can be acquired before it is claimed as spam or even illegal. Here are some tips from mail chimp on building an email list:
 
 - Create a signup form on your website. When people come to your website for the first time and like what they see, they’ll want a way to stay in-the-know about your brand. Create a form for newsletter sign up and install a pop-up to collect customer data from your visitors.
 
