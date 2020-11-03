@@ -1,5 +1,5 @@
 ---
-title: "Email Campaigns: Still Worth It?"
+title: "Email Campaigns: Still Worth It? and tips on getting started"
 categories:
   - Email Marketing
 comments: true
@@ -60,5 +60,6 @@ On the contrary, if someone is expecting daily updates or critical product updat
 
 This is why the first follow-up email is so crucial to the success of your email marketing efforts.
 
+I will be going more in depth in my next article on this subject. For now, focus on getting those mailing lists built up!
 
 [Contact me directly](https://chrisconnelly.dev) to find out about my email marketing system
