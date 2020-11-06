@@ -1,12 +1,12 @@
 ---
-title: "Email Marketing 101: Getting Started"
+title: "Social Marketing 101: Getting Started"
 categories:
-  - Technology
+  - Marketing
 comments: true
 tags:
-  - Technology
+  - Marketing
 last_modified_at: 2020-11-04T08:25:52-05:00
-excerpt: Web Design Calgary - For an SMB, freelancer or, consultant marketing can be out of reach. However, there are ways to reach a massive market...
+excerpt: Web Design Calgary - 
 author: Chris Connelly
 image:
   path: /assets/images/email-marketing/web-design-lethbridge@2x.png
