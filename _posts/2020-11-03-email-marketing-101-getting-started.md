@@ -1,7 +1,7 @@
 ---
 title: "Email Marketing 101: Getting Started"
 categories:
-  - Email Marketing
+  - Email Marketing 101
 comments: true
 tags:
   - Email Marketing 

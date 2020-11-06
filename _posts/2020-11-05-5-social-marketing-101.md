@@ -1,7 +1,7 @@
 ---
 title: "Social Marketing 101: Getting Started"
 categories:
-  - Marketing
+  - Marketing 101
 comments: true
 tags:
   - Marketing

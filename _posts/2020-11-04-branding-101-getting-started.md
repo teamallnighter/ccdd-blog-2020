@@ -1,7 +1,7 @@
 ---
 title: "Branding 101: Getting Started"
 categories:
-  - Branding
+  - Branding 101
 comments: true
 tags:
 
