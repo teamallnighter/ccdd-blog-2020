@@ -1,5 +1,5 @@
 ---
-title: "building A Cohesive Brand in 2020"
+title: "Branding 101: Getting Started"
 categories:
   - Branding
 comments: true
@@ -9,7 +9,7 @@ last_modified_at: 2020-11-03T08:25:52-05:00
 excerpt: Web Design Calgary - 
 author: Chris Connelly
 image:
-  path: /assets/images/email-marketing/web-design-lethbridge@2x.png
+  path: /assets/images/branding/branding-calgary.jpg
 ---
 
 # Branding 101
