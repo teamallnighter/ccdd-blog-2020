@@ -21,54 +21,9 @@ Structured data is data that uses a particular schema and is typically organized
 
 **Source: [DevelopersGoogle.com](https://developers.google.com/search/docs/guides/intro-structured-data)**
 
-```html
-<script type=application/ld+json>{
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "name": "chrisconnellydotdev inc",
-        "image": "https://chrisconnelly.dev/img/logo.png",
-        "@id": "",
-        "url": "https://chrisconnelly.dev",
-        "telephone": "(403)477-3548",
-        "priceRange": "$$",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "15 Falworth Place NE",
-            "addressLocality": "Calgary",
-            "addressRegion": "AB",
-            "postalCode": "T3J1G1",
-            "addressCountry": "CA"
-        },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 51.10019519999999,
-            "longitude": -113.9504791
-        },
-        "openingHoursSpecification": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-                "Monday",
-                "Tuesday",
-                "Wednesday",
-                "Thursday",
-                "Friday",
-                "Saturday",
-                "Sunday"
-            ],
-            "opens": "00:00",
-            "closes": "23:59"
-        },
-        "sameAs": [
-            "https://facebook.com/chrisconnelly.dev",
-            "https://twitter.com/ccdd89127076",
-            "https://instagram.com/chrisconnelly.dev",
-            "https://www.youtube.com/channel/UCSxGyo543RsVfRx0e6M6A-w",
-            "https://www.linkedin.com/in/chris-connelly-488b791b0/",
-            "https://github.com/teamalnighter",
-            "https://chrisconnelly.dev"
-        ]
-    }</script>
-    ```
+![SEO Calgary](/assets/images/seo/webdesigncalgary.png)
+
+
 ![SEO Calgary](/assets/images/seo/seo-calgary.jpg)
 
 ## Why Your Site Needs Structured Data
