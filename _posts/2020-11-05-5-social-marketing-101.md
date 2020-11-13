@@ -1,62 +1,91 @@
 ---
-title: "Social Marketing 101: Getting Started"
+title: "What Is Strcutured Data and Why You Site Needs It"
 categories:
-  - Marketing 101
+  - SEO
 comments: true
 tags:
-  - Marketing
+  - SEO
+  - Structured Data
 last_modified_at: 2020-11-04T08:25:52-05:00
-excerpt: Web Design Calgary - 
+excerpt: Web Design Calgary - Structured Date
 author: Chris Connelly
 image:
-  path: /assets/images/email-marketing/web-design-lethbridge@2x.png
+  path: /assets/images/seo/seo-specialist-calgary.png
 ---
 
-## Email Marketing 101: Getting Started
+## What Is Structured Data
 
-### The Facts
+Structured data is data that uses a particular schema and is typically organized in a tubular format. The schema represents the blueprint of how the data is organized, the heading row of the table used to describe the value and the format of each column. The schema also imposes the constraints required to make the data consistent and computable.
 
-In a [study](https://www.smartinsights.com/email-marketing/email-communications-strategy/email-marketing-still-worth-taking-seriously-2018/) from 2018 the data shows that email marketing is still the most effective form of online marketing. With [85% of adult internet users](https://www.statista.com/statistics/266891/daily-digital-activities-of-us-internet-users/) having an email address. That beats out search engines by 15% and social media by 22%—not small numbers in an industry that gets excited over single-digit conversion rate improvements.
+> Structured data is a standardized format for providing information about a page and classifying that content on the page; for example, on a recipe page, what are the ingredients, the cooking time, the temperature, the calories, and so on.
 
-thats why building a succesful email marketing campaign can be crucial for any business.
+**Source: [DevelopersGoogle.com](https://developers.google.com/search/docs/guides/intro-structured-data)**
 
-### Building A Succesful Email Campaign 101
+```html
+<script type=application/ld+json>{
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "chrisconnellydotdev inc",
+        "image": "https://chrisconnelly.dev/img/logo.png",
+        "@id": "",
+        "url": "https://chrisconnelly.dev",
+        "telephone": "(403)477-3548",
+        "priceRange": "$$",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "15 Falworth Place NE",
+            "addressLocality": "Calgary",
+            "addressRegion": "AB",
+            "postalCode": "T3J1G1",
+            "addressCountry": "CA"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 51.10019519999999,
+            "longitude": -113.9504791
+        },
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "opens": "00:00",
+            "closes": "23:59"
+        },
+        "sameAs": [
+            "https://facebook.com/chrisconnelly.dev",
+            "https://twitter.com/ccdd89127076",
+            "https://instagram.com/chrisconnelly.dev",
+            "https://www.youtube.com/channel/UCSxGyo543RsVfRx0e6M6A-w",
+            "https://www.linkedin.com/in/chris-connelly-488b791b0/",
+            "https://github.com/teamalnighter",
+            "https://chrisconnelly.dev"
+        ]
+    }</script>
+    ```
+![SEO Calgary](/assets/images/seo/seo-calgary.png)
 
-#### How do I get an email list
+## Why Your Site Needs Structured Data
 
-The first thing to remember is that, in Canada there are laws that state how an email list can be acquired before it is claimed as spam or even illegal. Here are some tips from mail chimp on building an email list:
+> Content in structured data are eligible for display as rich results in search.
 
-- Create a signup form on your website. When people come to your website for the first time and like what they see, they’ll want a way to stay in-the-know about your brand. Create a form for newsletter sign up and install a pop-up to collect customer data from your visitors.
+**In short, the search engine is able to provide additional featured on the search results pages, that will enhance the visibility of your content. For instance, when asked about structured data, that is how the search engine might extract content from a web page, and place it into an answer box, called a featured snippet
 
-- Use a good old-fashioned signup sheet. Whether it’s at your brick and mortar store, or an event that you’re hosting or attending, when you’re surrounded by people who are into what you do, provide a place for them to sign up and learn more.
 
-- Drive signups through social media. If you don’t have a substantial email list (or you’d just like to see it grow), but you’ve got an engaged social media following, tap into that resource. Share your signup form on your social channels.
+> Google Search works hard to understand the content of a page. You can help us by providing explicit clues about the meaning of a page to Google by including structured data on the page. Structured data is a standardized format for providing information about a page and classifying the page content; for example, on a recipe page, what are the ingredients, the cooking time and temperature, the calories, and so on.
 
-To add more subscribers to an existing list:
+Google uses structured data that it finds on the web to understand the content of the page, as well as to gather information about the web and the world in general. For example, here is a JSON-LD structured data snippet that might appear on a recipe page, describing the title of the recipe, the author of the recipe, and other details
 
-- Host a contest or offer a discount. We’re big fans of giving people an incentive to sign up for your email list—and we know that contests work. Try offering a prize for some lucky new subscriber or a discount code for a first purchase.
+![SEO Calgary](/assets/images/seo/seo-edmonton.png)
 
-- Make your emails easy to share.When you create beautiful, compelling emails, with a lot of valuable information people will want to share them. Mailchimp gives you features (like share buttons and social media post builders) that let the word about your emails spread quickly.
-- Build a landing page. Landing pages offer one more way to grow your email list. Using your best imagery and content, landing pages give people a clear call to action and drive email signups way, way up.
+## Tools
 
----
+[technicalseo.com's Structured Data Generator](https://technicalseo.com/tools/schema-markup-generator/)
 
-Ok, so we have our mailing list... now what?
-
-#### Follow through with great content
-
-[Neil Patel](https://neilpatel.com/blog/beginners-guide-email-marketing/) talks about content in [this](https://neilpatel.com/blog/beginners-guide-email-marketing/) article:
-
-> Email marketing is all about expectations, and it’s up to you to set them.
-
-If your call to action is strong, and your follow-up is consistent, then you can count on a positive campaign.
-
-However, if you promise to send one email per week and instead send them daily, then you’re setting yourself up for failure.
-
-On the contrary, if someone is expecting daily updates or critical product updates and you don’t’ deliver, then they are likely to be just as upset in that case too.
-
-This is why the first follow-up email is so crucial to the success of your email marketing efforts.
-
-I will be going more in depth in my next article on this subject. For now, focus on getting those mailing lists built up!
-
-[Contact me directly](https://chrisconnelly.dev) to find out about my email marketing system
+[Google's Rich Results Tester](https://search.google.com/test/rich-results)
