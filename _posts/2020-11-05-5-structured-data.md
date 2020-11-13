@@ -7,7 +7,7 @@ tags:
   - SEO
   - Structured Data
 last_modified_at: 2020-11-04T08:25:52-05:00
-excerpt: Web Design Calgary - Structured Date
+excerpt: Structured data is data that uses a particular schema and is typically organized in a tubular format. The schema represents the blueprint of how the data is organized, the heading row of the table used to describe the value and the format of each column
 author: Chris Connelly
 image:
   path: /assets/images/seo/seo-specialist-calgary.png

@@ -11,7 +11,7 @@ tags:
   - Trust Marketing
   - Marketing
 last_modified_at: 2020-11-03T08:25:52-05:00
-excerpt: Web Design Calgary - 
+excerpt: A brand is a name, term, design, symbol or any other feature that identifies one seller's good or service as distinct from those of other sellers. Wikipedia
 author: Chris Connelly
 image:
   path: /assets/images/branding/branding-calgary.jpg
