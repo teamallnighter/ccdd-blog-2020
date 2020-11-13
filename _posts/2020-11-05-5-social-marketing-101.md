@@ -1,5 +1,5 @@
 ---
-title: "What Is Strcutured Data and Why You Site Needs It"
+title: "What Is Strcutured Data and Why Your Site Needs It"
 categories:
   - SEO
 comments: true
@@ -69,7 +69,7 @@ Structured data is data that uses a particular schema and is typically organized
         ]
     }</script>
     ```
-![SEO Calgary](/assets/images/seo/seo-calgary.png)
+![SEO Calgary](/assets/images/seo/seo-calgary.jpg)
 
 ## Why Your Site Needs Structured Data
 
