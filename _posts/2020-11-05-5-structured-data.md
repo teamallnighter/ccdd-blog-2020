@@ -1,5 +1,5 @@
 ---
-title: "What Is Strcutured Data and Why Your Site Needs It"
+title: "What Is Structured Data and Why Your Site Needs It"
 categories:
   - SEO
 comments: true
@@ -80,7 +80,7 @@ Structured data is data that uses a particular schema and is typically organized
 
 > Google Search works hard to understand the content of a page. You can help us by providing explicit clues about the meaning of a page to Google by including structured data on the page. Structured data is a standardized format for providing information about a page and classifying the page content; for example, on a recipe page, what are the ingredients, the cooking time and temperature, the calories, and so on.
 
-Google uses structured data that it finds on the web to understand the content of the page, as well as to gather information about the web and the world in general. For example, here is a JSON-LD structured data snippet that might appear on a recipe page, describing the title of the recipe, the author of the recipe, and other details
+Google uses structured data that it finds on the web to understand the content of the page, as well as to gather information about the web and the world in general.
 
 ![SEO Calgary](/assets/images/seo/seo-edmonton.png)
 
