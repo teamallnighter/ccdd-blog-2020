@@ -23,7 +23,6 @@ Structured data is data that uses a particular schema and is typically organized
 
 ![SEO Calgary](/assets/images/seo/webdesigncalgary.png)
 
-
 ![SEO Calgary](/assets/images/seo/seo-calgary.jpg)
 
 ## Why Your Site Needs Structured Data
@@ -31,7 +30,6 @@ Structured data is data that uses a particular schema and is typically organized
 > Content in structured data are eligible for display as rich results in search.
 
 **In short, the search engine is able to provide additional featured on the search results pages, that will enhance the visibility of your content. For instance, when asked about structured data, that is how the search engine might extract content from a web page, and place it into an answer box, called a featured snippet
-
 
 > Google Search works hard to understand the content of a page. You can help us by providing explicit clues about the meaning of a page to Google by including structured data on the page. Structured data is a standardized format for providing information about a page and classifying the page content; for example, on a recipe page, what are the ingredients, the cooking time and temperature, the calories, and so on.
 
