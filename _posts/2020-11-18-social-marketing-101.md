@@ -105,3 +105,5 @@ So, now that we know more about our options whats next?
 First decide who your audience is. What age, sex, location, interests are and find out what they are using IE are you targeting millennials? is your product visually appealing? Instagram will probably be your best bet. Do you have a product that needs to be seen? needs to be tested in different scenarios? Youtube would be a great platform for you.
 
 In the coming months I will go over each social media site in depth! so stay tuned for more.
+
+Want to know more? [Contact Me](https://chrisconnelly.dev)
