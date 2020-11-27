@@ -9,10 +9,10 @@ tags:
   - Testing
   - Google Light House
 last_modified_at: 2020-11-17T08:25:52-05:00
-excerpt: A brand kit is a short and easy to use guide to your brand.  It's a quick reference to your identity that includes logos, colors, fonts, and messaging that represent your companies image, identity and tone.
+excerpt: Lighthouse is an open-source, automated tool for improving the quality of web pages. You can run it against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, SEO and more.
 author: Chris Connelly
 image:
-  path: /assets/images/branding/branding-101-brand-kit.png
+  path: /assets/images/branding/glh.png
 ---
 
 ## What Is Google Light House
